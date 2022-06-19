@@ -48,27 +48,127 @@ table {
 
 /* maincss */
 
-
+body {
+    background-color: #1f1f1f;
+    font-family: 'Coffee At Midnight Demo';
+}
 
 .container {
     text-align: center;
     margin: 0, auto;
-    background-color:cornsilk;
     padding: 0;
+    
 }
 
-.footer {
-    background-color: dimgray;
-}
 
 .konten {
-    padding-top: 60px;
-    padding: auto;
+    padding-top: 75px;
     min-height: 700px;
+    
+}
+
+.coffee {
+    margin-bottom: 20px;
+    padding-top: 70px;
+}
+
+.milk {
+    padding-top: 70px;
+    background-color: #fff;
+    padding-bottom: 20px;
+}
+
+.nonCoffee {
+    padding-top: 70px;
+    margin-bottom: 20px;
+    background-color: pink;
+}
+
+.keranjang {
+    padding: 70px 0;
+    background-color: #fff;
+    min-height: 300px;
+    justify-content: center;
+    margin-bottom: 400px;
+    
+}
+
+.navbar {
+    padding: 4px;
+}
+
+.konten p{
+    font-size: 28px;
+    font-weight: bold;
+    color: #fff;
 }
 
 
-.minuman {
-    background-color: darkgrey;
+.card {
+    background:transparent;
+    color: white;
+    
 }
 
+.milk .card-title {
+    color: #000;
+}
+
+.card .btn {
+    background-color: chocolate;
+    color: black;
+}
+
+.keranjang .btn {
+    background-color: chocolate;
+    color: black;
+    width: 30%;
+    height: 40px;
+
+}
+
+.nav {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 55px;
+    box-shadow: 0 0 3px black;
+    background-color: #fff;
+    display: flex;
+    overflow-x: auto;
+}
+
+.nav__link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    flex-grow: 1;
+    min-width: 50px;
+    overflow: hidden;
+    white-space: nowrap;
+    color: #444;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+    transition: background-color 0.1s ease-in-out ;
+    font-family: sans-serif;
+}
+
+.nav__link--active {
+    color: chocolate;
+}
+
+.nav__text {
+    font-size: 14px;
+}
+
+.formCheckout{
+    margin-top: 70px;
+    text-align: left;
+    padding: 0 70px;
+}
+
+.harga {
+    text-align: right;
+}

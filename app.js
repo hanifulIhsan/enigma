@@ -21,10 +21,6 @@ app.get('', (req, res) => {
     res.render('index')
 })
 
-app.get('/makanan', (req, res) => {
-    res.render('makanan')
-})
-
 
 //Listen on Port 3000
 app.listen(port, () => console.log(`app listening on http://localhost:${port}`))

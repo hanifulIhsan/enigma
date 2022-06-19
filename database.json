@@ -1,0 +1,27 @@
+[
+    {
+        idProduct:
+        namaProduct:
+        harga:
+        gambar:
+    }
+
+    {
+        idInvoice:
+        namaCostummer:"idProduct"
+        nohp:"idProduct"
+        nomeja:"idProduct"
+        totalHarga:"idProduct"
+    }
+
+    {
+        idPesanan:
+        noAntrian:"idInvoice
+        namaCostummer:"idProduct"
+        nohp:
+        nomeja:"idProduct"
+        statusPesanan:"idInvoice"
+        
+
+    }
+]
